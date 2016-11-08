@@ -1,0 +1,106 @@
+
+svg {
+    background-color: #ccccff;
+}
+
+path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.land.active {
+    fill: #7CFC00 !important;
+}
+
+.land {
+  fill: #bbb;
+}
+
+.border {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+}
+
+.border--district {
+  stroke-width: .5px;
+}
+
+.border--state {
+  stroke-width: 1.5px;
+}
+
+body{
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     background-color: #99aacc;
+     text-align: center;
+     font-size: x-large;
+}    
+
+div.blocksBackground {
+    padding:20px;
+    background-color: #ccccff;
+}
+
+div.delegateBox.active {
+    background-color: #7CFC00 !important;
+}
+
+div.delegateBox {
+    display: inline-block;
+    width: 20px; 
+    height: 30px;   
+    margin: 5px 1px;
+    background-color: #bbbbbb;
+    vertical-align : bottom;
+}
+div.topBar
+{width:100%; height:10px;background-color:blue;display: inline-block;vertical-align: top;}
+
+div.topBar.active {
+    background-color: #7CFC00 !important;
+}
+
+
+div.stateBox {
+    display: inline-block;
+    margin-right: 2px;
+    background-color: #bbbbbb;
+    vertical-align : middle;
+    width : 5px;
+    height : 15px;
+}
+
+div#stateBlocks{
+    line-height : 75%;
+}
+
+div.stateBox.active {
+    background-color: #7CFC00 !important;
+}
+
+#myCanvas{
+	margin-left: 805px;
+	position: absolute;
+	background-color: white;
+	height: 140px;
+	width: 40px;
+}
+#barcolor
+{
+position: absolute;
+margin-left: 750px;
+}
+div#first {
+  margin-left: 200px;
+  float: none;
+  clear: both;
+  height: 183px;
+  width: 750px;
+  color: blue;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+  border: 4px;
+  border-style: solid;
+}

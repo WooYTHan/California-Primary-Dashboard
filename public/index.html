@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="CAmap.css"></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<h1>State Delegates</h1>
+<div id = "first">
+  <table id = "table" style="width:100%"></table>
+
+
+</div>
+<h3>State Wide Delegates</h3>
+<div id="stateBlocks" class="blocksBackground"></div>
+<h3>Per District Delegates</h3>
+<div id="blocks" class="blocksBackground"></div>
+
+<button onclick="buttonloadModel()">Load Model</button>
+
+<select id="select" onchange="Changed()" >
+  <option value="Total population">Total population</option>
+  <option value="Median age (years)">Median age (years)</option>
+  <option value="White">White</option>
+  <option value="Black or African American">Black or African American</option>
+   <option value="American Indian and Alaska Native">American Indian and Alaska Native</option>
+  <option value="Asian">Asian</option>
+  <option value="Native Hawaiian and Other Pacific Islander">Native Hawaiian and Other Pacific Islander</option>
+  <option value="Hispanic or Latino (of any race)">Hispanic or Latino (of any race)</option>
+   <option value="Born in the United States">Born in the United States</option>
+  <option value="Foreign born">Foreign born</option>
+  <option value="Civilian veterans">Civilian veterans</option>
+  <option value="Percent Unemployed">Percent Unemployed</option>
+   <option value="Owner-occupied">Owner-occupied</option>
+  <option value="Renter-occupied">Renter-occupied</option>
+  <option value="Median (dollars)">Median (dollars)</option>
+  <option value="Median household income (dollars)">Median household income (dollars)</option>
+   <option value="Mean household income (dollars)">Mean household income (dollars)</option>
+  <option value="All families">All families in poverty</option>
+  <option value="All people">All people in poverty</option>
+  <option value="Percent high school graduate or higher">Percent high school graduate or higher</option>
+  <option value="Percent bachelor's degree or higher">Percent bachelor's degree or higher</option>
+</select>
+<br>
+<div id = "myCanvas"></div>
+<div id = "barcolor">
+<div id = "max"></div>
+<br>
+<br>
+<div id = "min"></div>
+</div>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="CAmap.js"></script>
+<script src="primary2.js"></script>
+<script src="primary.js"></script> <!-- button action -->
+<script src="blocks.js"></script>  <!-- adds the blocks -->
+
+</body>
+</html>
