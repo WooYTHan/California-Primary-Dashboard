@@ -23,4 +23,4 @@ function handler (request,response) {
 }
 
 server = http.createServer(handler);
-server.listen(5000);
+server.listen(process.env.PORT || 5000);
