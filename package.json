@@ -1,0 +1,25 @@
+{
+  "name": "California-Primary-Dashboard",
+  "version": "1.0.0",
+  "description": "A sample Node.js app",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooYTHan/California-Primary-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WooYTHan/California-Primary-Dashboard/issues"
+  },
+  "homepage": "https://github.com/WooYTHan/California-Primary-Dashboard#readme"
+}
